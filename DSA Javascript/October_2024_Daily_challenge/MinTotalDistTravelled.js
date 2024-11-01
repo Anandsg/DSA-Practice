@@ -21,3 +21,6 @@ var minimumTotalDistance = function (robot, factory) {
   }
   return dp[n];
 };
+
+// POV : That one shy introvert guy who does't smoke or drink, never goes to any parties, zero female friends 
+// and only believe in god
