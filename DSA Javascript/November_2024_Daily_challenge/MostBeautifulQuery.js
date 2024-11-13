@@ -4,7 +4,7 @@ var maximumBeauty = function (items, queries) {
   let maxBeauty = 0;
 
   for (let [price, beauty] of items) {
-    maxBeauty = Math.max(maxBeauty, beauty);
+    maxBeauty = Math.max(maxBeauty, beauty); 
     maxBeautyAtPrice.push([price, maxBeauty]);
   }
 
